@@ -22,6 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            elapsedTime="@{eggTimerViewModel.elapsedTime}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -47,6 +48,11 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="5dp"
+            android:entries="@array/egg_array"
+            android:onItemSelected ="@{(parent,view,selection,id) -> eggTimerViewModel.setTimeSelected(selection)}"
+            android:prompt="How do you like Your Egg?"
+            android:selectedItemPosition = "@{eggTimerViewModel.timeSelection}"
 
             />
 
@@ -54,6 +60,8 @@
             android:id="@+id/on_off_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="@{eggTimerViewModel.isAlarmOn()}"
+            android:onCheckedChanged = "@{(button,on) -> eggTimerViewModel.setAlarm(on)}"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
