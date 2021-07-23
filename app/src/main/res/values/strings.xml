@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EggTimer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Egg Timer Notification Channel -->
+    <string name="egg_notification_channel_id" translatable="false">egg_channel</string>
+    <string name="egg_notification_channel_name" translatable="true">Egg</string>
+    <string name="egg_notification_channel_description">Time for breakfast</string>
+</resources>
