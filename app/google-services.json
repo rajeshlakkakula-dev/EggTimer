@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708314771482",
+    "project_id": "eggtimer-23409",
+    "storage_bucket": "eggtimer-23409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708314771482:android:9eb97b38621fb3b851e1a3",
+        "android_client_info": {
+          "package_name": "com.rl.eggtimer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708314771482-pvgcsu60a5isi7l0d82o7iplrtvjlg3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKIn4jhGSEOc7HHpmzblRgusI3dCn1ctM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708314771482-pvgcsu60a5isi7l0d82o7iplrtvjlg3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

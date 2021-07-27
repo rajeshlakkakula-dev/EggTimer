@@ -81,13 +81,13 @@ fun NotificationManager.sendNotification(
         )
         .setPriority(NotificationManagerCompat.IMPORTANCE_HIGH)
         .setCategory(NotificationCompat.CATEGORY_REMINDER)
-        .setFullScreenIntent(fullScreenPendingIntent,true)
-        .setVibrate(longArrayOf(100,200,100,200))
+        .setFullScreenIntent(fullScreenPendingIntent, true)
+        .setVibrate(longArrayOf(100, 200, 100, 200))
         .run {
-            notify(NOTIFICATION_ID,this.build())
+            notify(NOTIFICATION_ID, this.build())
         }
 
-
+}
     fun NotificationManager.createChannel(
 
         channelId: String,
@@ -117,6 +117,6 @@ fun NotificationManager.sendNotification(
 
     }
 
-}
+
 
 fun NotificationManager.cancelNotifications() = cancelAll()

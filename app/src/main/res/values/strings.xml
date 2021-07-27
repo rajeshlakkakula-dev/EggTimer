@@ -8,4 +8,13 @@
     <string name="egg_notification_channel_id" translatable="false">egg_channel</string>
     <string name="egg_notification_channel_name" translatable="true">Egg</string>
     <string name="egg_notification_channel_description">Time for breakfast</string>
+
+
+    <!-- BreakFast Notification Channel -->
+
+    <string name="breakfast_notification_channel_id">Breakfast_channel</string>
+    <string name="breakfast_channel_name">BreakFast</string>
+    <string name="breakfast_channel_description">Breakfast Ready</string>
+
+
 </resources>

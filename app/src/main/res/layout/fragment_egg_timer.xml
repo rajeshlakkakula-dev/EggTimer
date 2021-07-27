@@ -51,7 +51,6 @@
             android:layout_marginLeft="5dp"
             android:entries="@array/egg_array"
             android:onItemSelected ="@{(parent,view,selection,id) -> eggTimerViewModel.setTimeSelected(selection)}"
-            android:prompt="How do you like Your Egg?"
             android:selectedItemPosition = "@{eggTimerViewModel.timeSelection}"
 
             />
